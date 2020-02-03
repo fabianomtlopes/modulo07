@@ -5,6 +5,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import { formatPrice } from '../../util/format';
 import * as CartActions from '../../store/modules/cart/actions';
+import colors from '../../styles/colors';
 
 import {
   Container,
@@ -30,7 +31,7 @@ import {
 } from './styles';
 
 function Cart({
-  navigation,
+  // navigation,
   products,
   total,
   removeFromCart,
